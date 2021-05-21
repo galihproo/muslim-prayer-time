@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 360px;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+#app div {
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #4ac550;
+    padding: .75em;
+}
+
+#app p {
+    text-align: center;
+    padding: 0 5px;
+}
+
+#app table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 0;
+}
+
+#app table tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+#app table tr:hover {
+    background-color: #4ac550;
+    color: #fff;
+    cursor: pointer;
+}
+
+#app table th {
+    text-align: left;
+    padding: .75em;
+}
+
+#app table td {
+    font-size: 16px;
+    padding: .75em;
+}
+
+#app table td:last-child,
+#app table th:last-child {
+    text-align: right;
+}
